@@ -20,3 +20,15 @@ src/piper/train/vits/monotonic_align/core.c
 *.so
 
 lightning_logs/
+
+.env
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local voice models and generated audio (downloaded at Docker build time)
+models/
+*.wav
+/*.onnx
+/*.onnx.json
